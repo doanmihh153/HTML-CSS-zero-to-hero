@@ -1,3 +1,5 @@
+# File này được tạo lâu rồi mà giờ mới dọn máy để làm dự án khác. Nên đẩy lên hơi trễ :)
+
 ## Lớp giả trong CSS
 
 ```css
