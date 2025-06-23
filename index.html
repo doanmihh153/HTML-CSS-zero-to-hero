@@ -1,0 +1,497 @@
+<!-- Thân của HTML -->
+<!DOCTYPE html> 
+<html lang="en">
+    <!-- Phần đầu - Head -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML - Basic</title> 
+        <!-- Nhúng link -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <!-- external -->
+        <link rel="stylesheet" href="styles.css">
+
+        <!-- internal -->
+        <style>
+            body {
+                font-family: "Raleway";
+            }
+
+            /*a::after{
+                content: " ("attr(href)") ";
+            }*/
+
+        </style>
+    </head>
+    <!-- Tiêu đề Body -->
+    <body>
+        <h1 style="color: #2980b9;">Học HTML - basic</h1>
+            <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!-- HEADING - Tiêu đề -->
+        <h1>Tiêu đề của H1</h1>
+        <h2>Tiêu đề của H2</h2>
+        <h3>Tiêu đề của H3</h3>
+        <h4>Tiêu đề của H4</h4>
+        <h5>Tiêu đề của h5</h5>
+        <h6>Tiêu đề của H6</h6>
+        <!-- Thẻ Small trong Heading -->
+        <h1>Đây là Thẻ Small<small>- Để Sub tiêu đề</small></h1>
+
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!-- Paragraphs - Đoạn văn bản  -->
+        <h1>HTML Paragraphs</h1>
+        <p>Đây là đoạn văn bản bằng Paragraphs - thẻ p</p>
+        <h2>Where does it come from?</h2>
+        <!-- Thẻ Br ngắt dòng -- Hr để ngắt dòng và tạo thêm đường phân tách giữa các dòng! -->
+        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+            Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur,
+            from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"
+            (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum,
+            "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+            <br><br>    
+            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
+            Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+        </p>
+
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!-- Thẻ Styles -->
+        <h4>Đây là HTML STYLES</h4>
+
+        <p style="color: #2980b9; font-size: medium;">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+            Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur,
+            from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"
+            (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum,
+            "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+            <br><br>    
+            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
+            Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+        </p>
+
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!-- Thẻ Img -->
+        <h4>Đây là HTML IMAGE</h4>
+        <p>Đây là thẻ img</p>
+        <img src="https://s3-sgn09.fptcloud.com/codelearnstorage/Upload/Blog/react-js-co-ban-phan-1-63738082145.3856.jpg"
+            alt="React Js"
+            style="height: 100px;"
+        >
+        <p>src: là nguồn của ảnh - alt: là tên của ảnh.
+            <br> <span style="color: red; font-family: Raleway; font-weight: 800;">Cả hai đều là thuộc tính của thẻ img</span>
+        </p>
+
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!-- Thẻ a -->
+        <h4>Đây là HTML A - anchor</h4>
+        <p>Mỏ neo - Đặt liên kết lại với nhau.</p>
+        <a href="http://127.0.0.1:5500/" style="color: red; text-decoration: none; font-family: Raleway;">Trở lại!</a>
+        <br>
+        <a href="https://react.dev/"
+            style="color: #2980b9; text-decoration: none;" 
+        >Tới liên kết React</a>
+        <p>Thẻ a có thuộc tính href</p>
+
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!-- Thẻ ui - li -->
+        <div style="font-family: Raleway;">
+            <h4 style="margin: 0;">Đây là HTML ul - unordered list</h4>
+            <h4 style="margin: 0;">Đây là HTML li - list items</h4>
+
+            <br>
+            <ul>Đây là Unordered List
+                <li>List Item 1</li>
+                <li>List Item 2</li>
+                <li>List Item 3</li>
+            </ul>
+        </div>
+
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!-- Thẻ table -->
+        <div style="font-family: Raleway;">
+            <h4 style="margin: 0;">Đây là HTML table - bảng</h4>
+            <table>
+                <thead>
+                    <th>Đây là đầu bảng - tiêu đề!</th>
+                    <th>Thuộc tính th trong thead</th>
+                </thead>
+
+                <tbody>
+                    <p>Mỗi <-tr-> là một dòng trong <-table-></p>
+                    <tr>
+                        <td>Đây là phần thân bảng</td>
+                        <td>Thuộc tính tr trong tbody và td trong tr</td>
+                    </tr><tr>
+                        <td>Đây là phần thân bảng 2</td>
+                        <td>Bảng 2 nè</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!-- Thẻ input -->
+        <br>
+        <div style="font-family: Raleway;">
+            <h4 style="margin: 0;">Đây là HTML input</h4>
+            <input type="text" placeholder="Nhập cái gì đó...">
+            <input type="checkbox" placeholder="Nhập cái gì đó..."><br>
+            <input type="password" placeholder="Nhập mật khẩu..."><br>
+            <input name="sex"type="radio">Male<br>
+            <input name="sex"type="radio">Female<br>
+            <input name="sex"type="radio">LGBT
+            <p>có các kiểu type - Checkbox - Radio</p>
+        </div>
+
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!-- Thẻ input -->
+        <div style="font-family: Raleway;">
+            <h4 style="margin: 0;">Đây là HTML button</h4>
+            <button style="border: none; background-color: #2980b9; color: white; border-radius: 4px;">submit</button>
+        </div>
+
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!-- Thẻ div -->
+        <br>
+        <div style="font-family: Raleway; width: 300px; height: 100px; background-color: #2980b9; align-items: center; justify-content: center; display: flex;">
+            <h4 style="margin: 0; color: #ffffff; text-align: center;">Đây là HTML Thẻ Div dùng để bao quanh và bọc khối</h4>
+        </div>
+
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!-- Thẻ div -->
+        <br>
+        <p>Attribute là một thuộc tính trong các thẻ</p>
+
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!-- Sử dụng CSS trong HTML -->
+        
+        <br><br>
+        <h1>Sử dụng CSS trong HTML</h1>
+        <p>Có 3 cách sử dụng: </p>
+        <ul>
+            <li><span style="color: red; font-weight: 600;">Internal</span> - Sử dụng cặp thẻ style đặt trong file HTML đó.</li>
+            <li><span style="color: red; font-weight: 600;">External</span> - Sử dụng file CSS bên ngoài để nhúng vô CSS.</li>
+            <li><span style="color: red; font-weight: 600;">inline</span> - Sử dụng <span style="font-weight: 600;">"Attribute - style"</span> để viết trong thẻ.</li>
+        </ul>
+
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!-- Sử dụng ID và CLAS trong HTML -->
+        <br><br>
+        <h1>Sử dụng ID và CLAS trong HTML</h1>
+        <p>Có 3 cách sử dụng: </p>
+        <h2 id="first-id">Thẻ này dùng attribute ID</h2>
+        <p id="first-p">Id chỉ được được đặt tên một lần - không thể trùng tên id</p>
+        <h2 class="first-class">Thẻ này dùng attribute class</h2>
+        <p class="first-pclass">Class có thể được đặt trùng tên</p>
+
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!-- Sử dụng ID và CLAS trong HTML -->
+        <br><br>
+        <h1>Sử dụng CSS Selector HTML</h1>
+        <a class="link-href" href="https://www.w3schools.com/cssref/css_selectors.php" >Xem chi tiết tại đây!</a>
+        <br>
+        <h4>Nhắc qua!</h4>
+        <ul>
+            <li>
+                <p><span class="fweight">.nameClass - .intro</span> - Chọn tất cả thẻ có class=".intro"</p>
+            </li>
+            <li>
+                <p><span class="fweight">.nameClass1.nameClass1 - .intro1.intro2</span> - Chọn tất cả thẻ có cả nameClass1 và nameClass2.
+                    <br> Ví dụ:
+                    <p >Class này có 2 name: title và heading</p>
+                    .title.heading { color: red }
+                    -> Thay đổi <p class="title heading">Class này có 2 name: title và heading</p>
+                </p>
+            </li>
+            <li>
+                <div class="box">
+                    <p><span class="fweight">.nameClass1 .nameClass1 - .intro1 .intro2</span> - Class 2 là con của class 1. (Lưu ý có dấu cách giữa 2 class)
+                    <br> Ví dụ:
+                    <p >Class này được bọc bởi class cha là box</p>
+                    .box .title { color: red }
+                    -> Thay đổi <p class="title">Class này được bọc bởi class cha là box</p>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <p class="fweight"> Kí tự " * " đại diện cho tất cả các thẻ</p>
+            </li>
+            <li>
+                <p> CSS qua tên thẻ</h2>
+            </li>
+            <li>
+                <p class="fweight"> Kí tự " > " phải trực tiếp là cái thẻ con của class cha</p>
+            </li>
+            <li>
+                <p class="fweight"> Kí tự " + " Chọn các anh em liền kề phía sau - Đứng phía sau .classĐầu + .classSau.</p>
+            </li>
+            <li>
+                <p class="fweight"> Kí tự " ~ " Chọn tất cả class phía sau nó.</p>
+            </li>
+        </ul>
+        
+        <br>
+        <h1>Mức độ ưu tiên trong CSS</h1>
+        <p><span class="fweight">internal và external</span> - Ai được gọi sau (mới) thì sẽ được ưu tiên cái sau (mới)</p>
+        <p>Ưu tiên theo số điểm:<br>
+            <span class="fweight">Inline - 1000</span><br>
+            <span class="fweight">#Id - 100</span><br>
+            <span class="fweight">class - 10</span><br>
+            <span class="fweight">tag - 1</span>
+        </p>
+
+        <br>
+        <p>Equal specificity - các selector giống nhau</p>
+        <p>Universal selector and inherited - Phổ cập chung</p>
+
+        <br><br>
+        <h1>CSS UNITS - Các đơn vị trong CSS</h1>
+
+        <h3>Absolute units - Các đơn vị tuyệt đối (absolute) - Không bị thay đổi khi response</h3>
+        <ul>
+            <li><span class="fweight">px</span></li>
+            <li><span class="fweight">pt</span> </li>
+            <li><span class="fweight">cm</span> </li>
+            <li><span class="fweight">mm</span> </li>
+            <li><span class="fweight">inch</span> </li>
+            <li><span class="fweight">pc</span> </li>
+        </ul>
+
+        <br>
+        <h3>Relative units - Các đơn vị tương đối (relative) - Bị thay đổi khi response </h3>
+        <ul>
+            <li><span class="fweight">%</span> - Phụ thuộc vào thẻ chứa nó. </li>
+            <li><span class="fweight">rem</span> - Phụ thuộc vào thẻ HTML</li>
+            <li><span class="fweight">em</span> - Phụ thuộc vào thẻ gần nhất chứa nó.</li>
+            <li><span class="fweight">vw</span> - Chiều ngang trình duyệt - viewport-width</li>
+            <li><span class="fweight">vh</span> - Chiều dọc trình duyệt - viewport-height</li>
+            <li><span class="fweight">vmin</span> </li>
+            <li><span class="fweight">vmax</span> </li>
+            <li><span class="fweight">ex</span> </li>
+            <li><span class="fweight">ch</span> </li>
+        </ul>
+
+        <br><br>
+        <h1>Function in CSS</h1>
+        <h3>Các hàm trong css</h3>
+        <ul>
+            <li><span class="fweight">var()</span> </li>
+            <li><span class="fweight">linear-gradient()</span> </li>
+            <li><span class="fweight">rgba()</span></li>
+            <li><span class="fweight">rgb()</span> - rgb(0, 0, 255,)</li>
+            <li><span class="fweight">calc()</span> - Tính toán - calc(120px)</li>
+            <li><span class="fweight">attr()</span> </li>
+        </ul>
+
+        <br><br>
+        <h1>Pseudo Classes trong CSS</h1>
+        <h3>Lớp giả trong CSS</h3>
+
+        <li><span class="fweight">:root</span> - Dùng toàn cục - Global </li>
+        <li><span class="fweight">:hover</span> - Dùng kích hoạt khi di chuột lên</li>
+        <li><span class="fweight">:active</span> - Dùng kích hoạt khi bấm và giữ chuột </li>
+        <li><span class="fweight">:first-child</span> - Phần tử đầu </li>
+        <li><span class="fweight">:last-child</span> - Phần tử cuối</li>
+        
+        <br>
+        <h1>Pseudo Elements trong CSS</h1>
+        <h3>Lớp giả trong CSS</h3>
+
+        <li><span class="fweight">::before</span>  </li>
+        <li><span class="fweight">::after</span></li>
+        <li><span class="fweight">::first-letter</span></li>
+        <li><span class="fweight">::first-line</span></li>
+        <li><span class="fweight">::selection</span></li>
+
+        <br><br>
+        <h1>Thuộc tính Padding - Đệm</h1>
+        <p><span class="fweight">Đây là mô tả - không sử dụng đúng!</span><br/>
+            Padding - top và bottom - 10px<br/>
+            Padding - right và left - 5px
+        </p>
+        <div class="padding-div">
+            <p class="padding-tag">Đây là thẻ chứa Padding</p>
+        </div>
+
+        <br><br>
+        <h1>Thuộc tính Border - Đường Viền</h1>
+        <p><span class="fweight">Đây là mô tả - không sử dụng đúng!</span><br/>
+            Border-width: 10px
+        </p>
+        <div class="border-div">
+            <p class="border-tag">Đây là thẻ chứa Border</p>
+        </div>
+
+        <br><br>
+        <h1>Thuộc tính Margin - Khoảng cách lề</h1>
+        <p><span class="fweight">Đây là mô tả - không sử dụng đúng!</span><br/>
+            margin: 10px 0; - Làm tăng khoảng cách thôi ní 🙃
+        </p>
+        <div class="margin-div">
+            <p class="margin-tag">Đây là thẻ chứa Margin</p>
+        </div>
+
+        <br><br>
+        <h1>Thuộc tính Box-sizing - Kích thước hộp</h1>
+        <p> 
+            Thuộc tính <code>box-sizing</code> dùng để quy định cách tính kích thước tổng thể của một phần tử (box).  
+        <br>
+            - Mặc định là <span class="fweight">content-box</span>: chỉ tính phần nội dung, còn <code>padding</code> và <code>border</code> sẽ làm hộp lớn hơn.<br>
+            - Dùng <code>border-box</code>: phần tử giữ nguyên kích thước tổng thể (width/height không thay đổi), <code>padding</code> và <code>border</code> nằm gọn bên trong.
+        </p>
+        <div class="box-sizing-div">
+            Ở dây dùng Box-sizing
+        </div>
+
+        <br><br>
+        <h1>Thuộc tính Background Images - Hình ảnh nền</h1>
+        <p>Đây là thẻ dùng background Image, có 2 thuộc tính CSS chung:<br />
+            <span class="fweight">background-size: x y px;</span> -- Size của hình ảnh<br/>
+            <span class="fweight">background-repeat: no-repeat;</span> -- <code style="color: #ff4757">repeat</code> (lặp theo chiều dọc và ngang - x, y) -- <code style="color: #ff4757">no-repeat</code> (không lặp lại) -- <code style="color: #ff4757">repeat x hoặc y</code> (chỉ lặp lại theo chiều ngang (x-axis) hoặc theo chiều dọc (y-axis)) -- 
+            <code style="color: #ff4757">space</code> (ảnh nền lặp lại nhưng cách đều ra) -- <code style="color: #ff4757">round</code> (ảnh nền sẽ bị co giãn để lặp lại đủ)
+        </p>
+        <div class="backgr-img"></div>
+
+        <p>Đây sử dụng các gradient và images để làm ảnh chuyển<br />
+            <span class="fweight">linear-gradient(0deg, rgba(1), rgba(2))</span> -- Dùng gradient
+        </p>
+        <div class="backgr-img-gradient"></div>
+        <p>Cái nào khai báo trước thì nó sẽ nằm trên cái khai báo sau! 
+        Tìm CSS có tên <span class="fweight">"backgr-img-gradient"</span> để xem và hiểu rõ!   
+        </p>
+
+        <br><br>
+        <h1>Thuộc tính Background Size - Kích thước nền</h1>
+        <ul>background-size: 
+            <li><span class="fweight">contain</span> -- Lấy chiều dài nhất của bức ảnh, bức ảnh sẽ ko bị cắt và bóp méo</li>
+            <li><span class="fweight">cover</span> -- Lấy chiều dài nhất của bức ảnh, chấp nhận che khuất bức ảnh</li>
+        </ul>
+
+        <br><br>
+        <h1>Thuộc tính Background Origin - Đi kèm với background Image</h1>
+        <ul>background-origin:
+            <li><span class="fweight">padding-box</span> -- mặc định. Đổ từ padding ra tới box</li>
+            <li><span class="fweight">border-box</span> -- Đổ từ border vào</li>
+            <li><span class="fweight">content-box</span> -- Đổ từ lớp content vào</li>
+        </ul>
+
+        <br><br>
+        <h1>Thuộc tính Background Position - Tuỳ chỉnh vị trí của Background Image</h1>
+        <ul>background-position:
+            <li><span class="fweight">center</span> -- giữa</li>
+            <li><span class="fweight">top</span> -- trên</li>
+            <li><span class="fweight">right</span> -- phải</li>
+            <li><span class="fweight">left</span> -- trái</li>
+            <li><span class="fweight">bottom</span> -- dưới</li>
+        </ul>
+        <p>Có thể kết hợp tuỳ chỉnh<br/>
+            <code style="color: rgba(83, 82, 237,1.0);">background-position: top right;</code><br />
+            <code style="color: rgba(83, 82, 237,1.0);">background-position: top 20px right 20px;</code><br />
+            <code style="color: rgba(83, 82, 237,1.0);">background-position: x y;</code> (x là dọc và y là ngang)<br />
+            vân vân mây mây :))
+        </p>
+
+        <br><br>
+        <h1>Thuộc tính Position relative - Vị trí tương đối</h1>
+        <ul>position:
+            <li><span class="fweight">relative</span> -- Vị trí tương đối - không phụ thuộc vào đối tượng nào khác</li>
+            <li><span class="fweight">absolute</span> -- Vị trí tuyệt đối - Phụ thuộc vào thẻ cha chứa nó có chứa Position (không phân biệt thuộc tính của position)</li>
+            <li><span class="fweight">fixed</span> -- Vị trí phụ thuộc vào khung Browser</li>
+            <li><span class="fweight">sticky</span> -- Vị trí bám dính - <span style="color: rgba(255, 71, 87,1.0)">Không khuyến cáo sử dụng</span></li>
+        </ul>
+
+        <p>Ví dụ về relative -- </p>
+        <div class="parent-relative">
+            <div class="box-rela1"></div>
+            <div class="box-rela2"></div>
+        </div>
+
+        <p>Ví dụ về absolute -- Nếu sử dụng cả 4 top, bottom, left right
+            thì nó sẽ ưu tiên -- <span class="fweight">top - left</span> -- nhưng đối với thẻ ko chiếm hết màn hình.
+        </p>
+        <div class="parent-absolute">
+            <div style="background-color: #ff4757;color: white; position: absolute; top: 20px; left: 20px">Thẻ này đang chứa Position Relative - nói thẻ div to nhé 🙃</div>
+            <div class="child-absolute">Đây chứa absolute</div>
+        </div>
+
+        <p>Ví dụ về fixed -- Cái nào đứng yên á</p>
+        <div class="box-fixed-top">Thẻ này đứng yên - vì sài fixed</div>
+
+        <p>Ví dụ về sticky -- </p>
+        <div class="parent-sticky">
+            Thẻ này dùng Sticky 👇🏼 Cuộn sẽ thấy
+        </div>
+
+    </body>
+</html>

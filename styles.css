@@ -1,0 +1,171 @@
+:root {
+    --text-color: #eb4d4b;// Đây là các biến trong lớp giả
+
+}
+
+* {
+    margin: 5;
+    padding: 5;
+    box-sizing: border-box;
+}
+#first-id {
+    margin: 0;
+    color: #2980b9; // Sử dụng ID bằng dấu #
+}
+
+#first-p {
+    margin: 5px;
+}
+
+.first-class {
+    margin: 0;
+    color: #c0392b; // Sử dụng class bằng dấu .
+}
+
+.first-pclass{
+    margin: 5px;
+}
+
+.link-href {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #16a085;  
+}
+
+.fweight {
+    color: #d35400;
+    font-weight: 700;
+}
+
+.title.heading {
+    color: red
+}
+
+.box .title {
+    font-weight: 500;
+    color: #8e44ad;
+}
+
+.padding-div{
+    background-color: #f9ca24;
+    padding-left: 10px; padding-right: 10px;
+    padding-top: 10px; padding-bottom: 10px;
+}
+.padding-tag{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #4834d4;
+} 
+
+.border-div{
+    background-color: #22a6b3;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #22a6b3;
+}
+
+.border-tag{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#eb4d4b; color: white;
+}
+
+
+.margin-tag{
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1B1464; color: white;
+}
+
+.box-sizing-div{
+    height: 40px; width: 250px;
+    background-color: #2ed573; color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #ff4757;
+    box-sizing: content-box;
+}
+
+.backgr-img {
+    height: 100px;
+    weight: 100px;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/25/25231.png);
+    background-size: 100px;
+    background-repeat: no-repeat;
+}
+
+.backgr-img-gradient{
+    height: 300px;
+    weight: 100%;
+    background-image: 
+        linear-gradient(0deg, rgba(255, 71, 87,1.0), rgba(255, 107, 129,0.1)),
+        url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRNTrq18r3AIJR31ICapRDJt_JGwqYiSnFkw&s);
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+
+.parent-relative{
+    height: 200px;
+    weight: 100%
+}
+
+.box-rela1 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    
+}
+
+.box-rela2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    top: -50px;
+}
+
+.parent-absolute{
+    height: 200px;
+    weight: 100%;
+    background-color: rgba(164, 176, 190,1.0);
+    position: relative;
+}
+
+.child-absolute{
+    background-color: rgba(46, 213, 115,1.0);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+.box-fixed-top{
+    background-color: #3742fa;
+    color: #ffffff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.parent-sticky {
+    width: 100%;
+    height: 60px;
+    color: #ff7f50;
+    background-color: #2f3542;
+    position: sticky;
+    top: 0;
+    
+}
+
