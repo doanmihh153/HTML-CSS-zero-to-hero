@@ -11,3 +11,24 @@
 
 Lớp giả này là toàn cục - global.
 
+## Đặt theo tiêu chuẩn BEM
+
+### Ý nghĩa
+
+- Viết tắt của: Block Element Modifier
+- Block: Khối
+- Element: Thành phần của khối
+- Modifier: Bổ sung ý nghĩa cho `Block` và `Element`
+
+### Tại sao phải dùng BEM
+
+- Mỗi người đặt một kiểu
+- Members đặt class trùng nhau, CSS đè lên nhau
+
+### Cú pháp
+
+- .block
+- .block__element
+
+- .block--modifier
+- .block__element--modifier
